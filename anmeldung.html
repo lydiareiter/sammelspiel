@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./anmeldung.css">
+    <script src="./anmeldung.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "inhalt">
+        <img src="./moebelfolie-gruene-blaetter-einzel.jpg" alt="Bild">
+        <h1>REGISTRATION</h1>
+
+        <p id="namep">What's your name?</p>
+        <input type="text" id="name" onkeyup="namef()" placeholder="Your Name">
+        <p class="error" id="error1">Your Name is too short!</p>
+
+        <p id="emailp">What's your email?</p>
+        <input type="email" id="email" onkeyup="emailf()" placeholder="example@example.com">
+        <p class="error" id="error2">The @ is missing!</p>
+
+        <p id="password1p">Enter a password</p>
+        <input type="password" id="password1" onkeyup="password1f()">
+        <p class="error" id="error3">Your password is shorter than 8 letters!</p>
+
+        <p id="password2p">Repeat the password</p>
+        <input type="password" id="password2" onkeyup="password2f()">
+        <p class="error" id="error4">The password do not match!</p>
+
+        <input type="checkbox" id="check" onclick="checkf()">
+        <p id="label">understood the terms of use</p>
+        <p class="error" id="error5">You must do it to continue!</p>
+
+        <button onclick="buttonf()">Sign Up</button>
+    </div>
+</body>
+</html> 

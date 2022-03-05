@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image:linear-gradient(135deg, rgb(32, 32, 14) , rgb(80, 80, 47) )
+}
+#inhalt{
+    background-color: rgb(171, 196, 168);
+    width: 60vw;
+    height: 55vh;
+    margin: 22.5vh auto;
+}
+img{
+    height: 55vh;
+}
+h1{
+    position: absolute;
+    top: 25vh;
+    left: 50vw; 
+    border-bottom: black solid 1px;
+    padding: 0px 3vw;
+}
+p{
+    font-size: 3vh;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: black solid 1px;
+    font-size: 3vh;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+#name{
+    top: 38vh;
+    left: 58vw;
+}
+#namep{
+    top: 38vh;
+    left: 38vw;
+}
+#error1{
+    top: 41vh;
+    left: 38vw;
+}
+#email{
+    top: 45vh;
+    left: 58vw;
+}
+#emailp{
+    top: 45vh;
+    left: 38vw;
+}
+#error2{
+    top: 48vh;
+    left: 38vw;
+}
+#password1{
+    top: 52vh;
+    left: 58vw;
+}
+#password1p{
+    top: 52vh;
+    left: 38vw;
+}
+#error3{
+    top: 55vh;
+    left: 38vw;
+}
+#password2{
+    top: 59vh;
+    left: 58vw;
+}
+#password2p{
+    top: 59vh;
+    left: 38vw;
+}
+#error4{
+    top: 62vh;
+    left: 38vw;
+}
+.error{
+    color: red;
+    font-size: 2vh;
+    display: none;  
+}
+#error5{
+    top: 69vh;
+    left: 37vw;
+}
+#check{
+    top: 68vh;
+    left: 38vw;
+}
+#label{
+    top: 66.38vh;
+    left: 39vw;
+    font-size: 1vw;
+}
+button{
+    background-color: rgb(54, 70, 55);
+    border-radius: 2vh;
+    padding: 1vh;
+    position: absolute;
+    top: 70vh;
+    right: 25vw;
+}
+h2{
+    position: absolute;
+    font-size: 5vh;
+    top: 45vh;
+    left: 40vw;
+}

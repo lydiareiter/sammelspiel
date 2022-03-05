@@ -1,0 +1,51 @@
+/* keyboard.css */
+
+/*overflow : hiden;*/
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body{
+  background-image: url("./wald-im-herbst.jpg");
+}
+#surface {
+  background-color:rgb(74, 134, 72);
+  height: 600px;
+  width: 1300px;
+  position: relative;
+  margin: 0px, auto;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+#sprite {
+  position: absolute;
+  width: 25px; /* ANPASSEN! Testen und im Browser/Entwicklerumgebung analysieren */
+  height: 25px;
+  overflow: hidden;
+}
+#spriteImg {
+  height: 30px; /* ANPASSEN! 150 = 6*25 (25->Containerhöhe, 6->Zeilen im PNG) */
+  position: relative;
+}
+
+#eichel{
+  position: absolute;
+  height: 12.5px;
+}
+
+#outputeichel{
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+#count{
+  color: white;
+  font-size: 200%;
+  position: absolute;
+  top: 40px;
+  right: 120px;
+}
+
